@@ -323,8 +323,8 @@ h1{
     margin-left: 10px;
     margin-right: auto;
     margin-top: 40px;
-    padding-left: 50px;
-    width: 90%
+    padding-left: 31px;
+    width: 94%;
 }
 
 .cc__item h1{
@@ -336,8 +336,10 @@ h1{
     margin-top: 0
 }
 
-.cc .cc__item .acf-wysiwyg * {
-    line-height: 1.5
+
+
+.cc__item p{
+    text-align: justify;
 }
 
 
@@ -354,18 +356,28 @@ h1{
 
     .cc .cc__item:first-child {
         margin-left: 0;
-        margin-top: 0
+        margin-top: 0;
+        padding-right:30px;
     }
 
+    .cc .cc__item:nth-child(2n+1){
+        padding-right: 50px;
+    }
     .cc .cc__item:nth-child(2n) {
         margin-left: auto;
-        margin-right: 0
+        margin-right: 0;
+        padding-left:30px;
+        padding-left: 50px;
     }
+    
 }
 
 @media (min-width:1024px) {
     .cc .cc__item {
         width: 40%
+    }
+    .cc__item img{
+        width: 100%;
     }
 }
 
